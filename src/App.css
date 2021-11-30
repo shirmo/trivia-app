@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+all {
+  background-image: url('https://i.pinimg.com/736x/d1/b4/16/d1b416e60c46e7f6269f425c2bb8f683.jpg');
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  background: #f07c46;
+  background-image: -webkit-linear-gradient(top, #f07c46, #b8402b);
+  background-image: -moz-linear-gradient(top, #f07c46, #b8402b);
+  background-image: -ms-linear-gradient(top, #f07c46, #b8402b);
+  background-image: -o-linear-gradient(top, #f07c46, #b8402b);
+  background-image: linear-gradient(to bottom, #f07c46, #b8402b);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #46baf0;
+  background-image: -webkit-linear-gradient(top, #46baf0, #3498db);
+  background-image: -moz-linear-gradient(top, #46baf0, #3498db);
+  background-image: -ms-linear-gradient(top, #46baf0, #3498db);
+  background-image: -o-linear-gradient(top, #46baf0, #3498db);
+  background-image: linear-gradient(to bottom, #46baf0, #3498db);
+  text-decoration: none;
+}
+
+h1 {
+  color: #f07c46;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  line-height: 160px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 40px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+
+h2 {
+  color: #f07c46;
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  line-height: 160px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
 }
