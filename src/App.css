@@ -67,6 +67,16 @@ button:hover {
   text-decoration: none;
 }
 
+button:disabled {
+  background: gray;
+  background-image: -webkit-linear-gradient(top, gray, gray);
+  background-image: -moz-linear-gradient(top, gray, gray);
+  background-image: -ms-linear-gradient(top, gray, gray);
+  background-image: -o-linear-gradient(top, gray, gray);
+  background-image: linear-gradient(to bottom, gray, gray);
+  text-decoration: none;
+}
+
 h1 {
   color: #f07c46;
   font-family: 'Great Vibes', cursive;
